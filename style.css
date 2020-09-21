@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+}
+
+/***MENU***/
+
+.vertical-menu {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    z-index: 1;
+    font-family: Hacked;
+    font-size: 20px;
+    width: 200px;
+  }
+  
+  .vertical-menu a {
+    background-color: #010101;
+    color: white;
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: rgb(102, 102, 102);
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #141414;
+    color: white;
+  }
+
+/***TEXT***/
+
+.credits {
+    color: white;
+    position: absolute,center;
+    
+    
+}
+
+/***BACKGROUND***/
+
+.video {
+    position: initial;
+}
